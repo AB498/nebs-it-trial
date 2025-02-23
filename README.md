@@ -2,6 +2,8 @@
 
 This is a **React** + **TypeScript** + **Tailwind** application bootstrapped with **Vite**, craeted for nebs-it selection process.
 
+![screenshot](images/screenshot.png)
+
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
