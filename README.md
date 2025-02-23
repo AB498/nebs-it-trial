@@ -1,5 +1,7 @@
 # React Vite App
 
+[![img](https://custom-icon-badges.demolab.com/badge/live-deployment-blue.svg?logo=rocket&logoColor=white)](https://nebs-it-trial.vercel.app/)
+
 This is a **React** + **TypeScript** + **Tailwind** application bootstrapped with **Vite**, craeted for nebs-it selection process.
 
 ![screenshot](images/screenshot.png)
@@ -104,6 +106,10 @@ my-react-vite-app/
 ├── package.json         # Project dependencies and scripts
 └── vite.config.ts       # Vite configuration file
 ```
+
+## Live
+
+Deployed with Vercel at https://nebs-it-trial.vercel.app
 
 ## License
 
