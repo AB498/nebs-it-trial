@@ -26,7 +26,6 @@ function SolarForm() {
   };
 
   const nextStep = (step: number) => {
-    console.log(formData);
     let error = false;
     switch (step) {
       case 1:
@@ -101,13 +100,13 @@ function SolarForm() {
         <div className={`shrink-0 grow-0 h-[1px] bg-black mx-2`}></div>
         <h2 className="text-xl font-semibold mb-4">You're about to save estimated 18,000 USD.</h2>
         <p className="">
-          We’ll contact with you soon with
+          We'll contact with you soon with
           proper credentials.
         </p>
-        <button
+        <button key={Math.random()}
           type={step === totalSteps ? 'submit' : 'button'}
           onClick={backToHome}
-          className="px-8 py-3 border-2 border-blue-600 rounded-full min-w-[200px] text-xl font-extrabold
+          className="px-8 py-3 border-[1px] border-blue-600 rounded-full text-xl font-extrabold
           hover:text-blue-600 hover:bg-white bg-blue-900 text-white transition-colors self-center"
         >
           Back To Home
@@ -323,19 +322,19 @@ function SolarForm() {
 
         <div className="flex justify-center gap-4">
           {step > 1 && (
-            <button
+            <button key={Math.random()}
               type="button"
               onClick={prevStep}
-              className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-full min-w-[200px] text-xl font-extrabold
-              hover:bg-blue-900 hover:text-white transition-colors"
+              className="px-8 py-3 border-[1px] border-blue-600 rounded-full  text-lg lg:text-xl font-extrabold
+              bg-white hover:bg-blue-900 text-blue-600 hover:text-white transition-colors"
             >
               Back
             </button>
           )}
-          <button
+          <button key={Math.random()}
             type={step === totalSteps ? 'submit' : 'button'}
             onClick={step === totalSteps ? undefined : () => nextStep(step)}
-            className="px-8 py-3 border-2 border-blue-600 rounded-full min-w-[200px] text-xl font-extrabold
+            className="px-8 py-3 border-[1px] border-blue-600 rounded-full text-xl font-extrabold
              hover:text-blue-600 hover:bg-white bg-blue-900 text-white transition-colors"
           >
             {step === totalSteps ? 'Submit' : 'Next'}

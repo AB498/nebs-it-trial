@@ -4,7 +4,11 @@
 
 This is a **React** + **TypeScript** + **Tailwind** application bootstrapped with **Vite**, craeted for nebs-it selection process.
 
-![screenshot](images/screenshot.png)
+
+
+Desktop                               | Mobile
+:------------------------------------:|:-----------------------------------:
+![screenshot](images/screenshot.png)  |  ![](images/screenshot-mobile.jpg)
 
 ## Table of Contents
 
